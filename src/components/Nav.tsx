@@ -1,7 +1,9 @@
 import { SECTION_IDS } from "../Constants/sections";
 
 const NAV_LINKS = [
-  { label: "Work", href: `#${SECTION_IDS.WORK}`, id: SECTION_IDS.WORK },
+  { label: "Projects", 
+    href: `#${SECTION_IDS.PROJECTS}`, 
+    id: SECTION_IDS.PROJECTS },
   {
     label: "Experience",
     href: `#${SECTION_IDS.EXPERIENCE}`,

@@ -25,7 +25,7 @@ const Introduction = () => {
 
       <div className="flex flex-wrap gap-4">
         <a
-          href={`#${SECTION_IDS.WORK}`}
+          href={`#${SECTION_IDS.PROJECTS}`}
           className="px-6 py-3 rounded-xl bg-white text-black font-semibold text-sm hover:bg-gray-200 transition-all transform hover:-translate-y-0.5"
         >
           Explore My Work

@@ -21,7 +21,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <SectionContent id={SECTION_IDS.WORK} heading="Featured Projects">
+    <SectionContent id={SECTION_IDS.PROJECTS} heading="Featured Projects">
       <CarouselWrapper>
         {projects.map((proj) => (
           <div

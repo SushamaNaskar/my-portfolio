@@ -1,6 +1,6 @@
 export const SECTION_IDS = {
   INTRO: 'intro',
-  WORK: 'work',
+  PROJECTS: 'Projects',
   EXPERIENCE: 'experience',
   CERTIFICATIONS: 'certifications',
   SKILLS: 'skills',
