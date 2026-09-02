@@ -38,6 +38,7 @@ const skills = [
     items: [
       "AWS",
       "Git / GitHub",
+      "Docker",
       "Netlify",
       "Vercel",
       "Jest",
