@@ -41,6 +41,7 @@ const CarouselWrapper: React.FC<CarouselWrapperProps> = ({ children }) => {
       {/* Slide Container using CSS Transform */}
       <div className="overflow-hidden w-full">
         <div
+          data-testid="carousel-track"
           className="flex transition-transform duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] will-change-transform"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
