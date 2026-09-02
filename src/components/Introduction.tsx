@@ -1,8 +1,10 @@
 import { Mail } from "lucide-react";
+import { SECTION_IDS } from "../Constants/sections";
+import { EMAIL } from "../Constants/personalInfo";
 
 const Introduction = () => {
   return (
-    <section id="hero" className="py-24 md:py-32">
+    <section id={SECTION_IDS.INTRO} className="py-24 md:py-32">
       <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-indigo-300 mb-8">
         <span className="w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#10b981]" />
         Available for full-time opportunities
@@ -23,13 +25,13 @@ const Introduction = () => {
 
       <div className="flex flex-wrap gap-4">
         <a
-          href="#work"
+          href={`#${SECTION_IDS.WORK}`}
           className="px-6 py-3 rounded-xl bg-white text-black font-semibold text-sm hover:bg-gray-200 transition-all transform hover:-translate-y-0.5"
         >
           Explore My Work
         </a>
         <a
-          href="mailto:sushama9722@gmail.com"
+          href={`mailto:${EMAIL}`}
           className="px-6 py-3 rounded-xl bg-[#14171d] border border-white/10 text-white font-semibold text-sm hover:bg-white/10 hover:border-white/20 transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
         >
           <Mail className="w-4 h-4 text-indigo-400" />
