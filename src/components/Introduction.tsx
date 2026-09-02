@@ -1,6 +1,6 @@
 import { Mail } from "lucide-react";
 import { SECTION_IDS } from "../Constants/sections";
-import { EMAIL } from "../Constants/personalInfo";
+import { EMAIL } from "../Constants/personalInfos";
 
 const Introduction = () => {
   return (

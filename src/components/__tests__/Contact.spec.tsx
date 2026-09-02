@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/vitest';
 import { render, screen } from '@testing-library/react';
 import Contact from '../Contact';
 import { SECTION_IDS } from '../../Constants/sections';
-import { EMAIL, LINKEDIN, GITHUB } from '../../Constants/personalInfo';
+import { EMAIL, LINKEDIN, GITHUB } from '../../Constants/personalInfos';
 
 describe('Contact Component', () => {
   it('renders section container with the correct id', () => {

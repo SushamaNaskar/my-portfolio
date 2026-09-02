@@ -1,7 +1,7 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { SECTION_IDS } from "../Constants/sections";
-import { EMAIL, LINKEDIN, GITHUB } from "../Constants/personalInfo";
+import { EMAIL, LINKEDIN, GITHUB } from "../Constants/personalInfos";
 
 const Contact = () => {
   return (

@@ -2,7 +2,7 @@ import '@testing-library/jest-dom/vitest';
 import { render, screen } from '@testing-library/react';
 import Introduction from '../Introduction';
 import { SECTION_IDS } from '../../Constants/sections';
-import { EMAIL } from '../../Constants/personalInfo';
+import { EMAIL } from '../../Constants/personalInfos';
 
 describe('Introduction Component', () => {
   it('renders section container with the correct id', () => {
